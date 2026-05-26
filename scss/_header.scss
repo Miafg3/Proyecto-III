@@ -1,0 +1,48 @@
+.header {
+    padding: 1rem;
+    background: $bg-header;
+}
+
+.wrapper {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    a {
+        color: $white;
+        font-size: 1.7rem;
+        font-weight: bold;
+        text-decoration: none;
+    }
+}
+
+.search-box {
+    width: min(100%, 250px);
+    position: relative;
+
+    input {
+        width: 100%;
+        border: none;
+        outline: none;
+        color: $white;
+        padding: .7rem;
+        border-radius: $radius;
+        background: rgba(255,255,255,.15);
+
+        &::placeholder {
+            color: $white;
+        }
+    }
+
+    i {
+        position: absolute;
+        top: 50%;
+        right: 12px;
+        color: $white;
+        transform: translateY(-50%);
+    }
+}

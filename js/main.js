@@ -55,7 +55,6 @@ const gridImages = document.querySelectorAll(".grid-img");
 gridImages.forEach((img) => {
     img.addEventListener("click", () => {
         modal.classList.add("active");
-
         modalImage.src = img.src;
     });
 });
