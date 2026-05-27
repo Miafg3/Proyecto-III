@@ -1,6 +1,15 @@
-$radius: 12px;
+$radius-sm: 12px;
+$radius-lg: 20px;
+
 $white: #fff;
 $black: #000;
+
 $bg-dark: #111;
+$bg-card: #222;
 $bg-header: #2f4f4f;
-$transition: .3s ease;
+
+$transition-fast: .3s ease;
+$transition-slow: .5s ease;
+
+$container-width: min(1300px, 90%);
+$shadow: 0 10px 25px rgba(0,0,0,.35);

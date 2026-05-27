@@ -1,3 +1,5 @@
+@use 'variables' as *;
+
 .header {
     padding: 1rem;
     background: $bg-header;
@@ -5,9 +7,9 @@
 
 .wrapper {
     width: 90%;
-    margin: auto;
     display: flex;
     align-items: center;
+    margin-inline: auto;
     justify-content: space-between;
 }
 
@@ -30,7 +32,7 @@
         outline: none;
         color: $white;
         padding: .7rem;
-        border-radius: $radius;
+        border-radius: $radius-sm;
         background: rgba(255,255,255,.15);
 
         &::placeholder {

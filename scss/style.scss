@@ -1,8 +1,9 @@
-@import 'variables';
+@use 'variables' as *;
 
-@import 'slider';
-@import 'header';
+@use 'base';
+@use 'header';
+@use 'slider';
 
-@import 'template1';
-@import 'template2';
-@import 'template3';
+@use 'template1';
+@use 'template2';
+@use 'template3';
